@@ -1,0 +1,15 @@
+h1 {
+    font-size: 10vw;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(175, 46, 239);
+    border-radius: 10px;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+img {
+    height: 40vh;
+    opacity: 0.2;
+}
