@@ -1,0 +1,22 @@
+body {
+   background-color: rgb(221, 255, 250);
+   font-family: futura, sans-serif;
+   color: rgb(4, 37, 96)
+}
+
+h1 {
+   text-align: center;
+   color: rgb(4, 37, 96)
+}
+
+h2 {
+   color: rgb(62, 200, 190)
+}
+
+button {
+   margin: 0 10px;
+   background-color: rgb(150, 228, 71);
+   padding: 10px;
+   border-radius: 5px;
+   border: 1px solid chartreuse;
+}
