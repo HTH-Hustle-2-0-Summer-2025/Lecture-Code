@@ -1,0 +1,32 @@
+h1 {
+    color:purple
+}
+
+#paragraph {
+    text-align: center;
+}
+
+.styling-ul {
+    color:seagreen
+}
+
+h2 + p {
+    color: tomato;
+}
+
+a:hover {
+    color:yellowgreen
+}
+
+li::marker {
+    color:violet
+}
+
+a[href] {
+    color:orange
+}
+
+h2 {
+    border: 4px dotted blue;
+    color:orchid;
+}

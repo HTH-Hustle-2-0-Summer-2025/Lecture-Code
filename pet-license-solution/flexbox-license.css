@@ -1,0 +1,48 @@
+main {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(216, 221, 226);
+    margin: auto;
+    padding-left: 10px; 
+    height: 40%;
+    width: 90%;
+    min-width: 470px;
+    max-width: 535px;
+    border-radius: 20px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px black solid;
+    margin: auto auto 0 auto;
+}
+
+#details {
+    display: flex;
+    margin: 5px 0px;
+}
+
+footer {
+    display: flex;
+    padding: 5px 10px 5px 0px;
+    justify-content: space-between;
+    border-top: 2px solid black;
+}
+
+img {
+    margin: auto 5px;
+    height: 150px;
+}
+
+#col2 {
+    margin: auto 5px;
+}
+
+#col3 {
+    margin: auto;
+
+}
+
+p {
+    margin: 0;
+}
