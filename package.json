@@ -1,0 +1,16 @@
+{
+  "name": "live-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "behavior.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}
