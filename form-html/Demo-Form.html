@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Form</title>
+</head>
+<body>
+    <!-- Form tag and everything related to form goes into the body-->
+  <form>
+    
+    <!--Label tags provide associated names for input basically what the user sees as a prompt.-->
+    <label for = "username"> Username:</label>
+    <!--The line above creates the word username shown on the right-->
+
+   <input type= "text" id="username" name="username">
+    <!--Input tags provide different options for interactive input-->
+    <!--This is creating an input field — a box where the user can type something.-->
+    <!--type="text"	This says it will be a text box, where the user can type something in.-->
+    <!--id="username"	This is the unique identifier for this field — 
+        mainly for styling with CSS or linking to a label with for="username".-->
+    <!--name="username" is what gets recorded on the guest list when the form is submitted — it says: 
+        “Zewdi filled out their username as: [whatever they typed in the box].”-->
+
+    <br><br>
+
+
+
+
+    <!-- Checkbox input with label -->
+    <label for="subscribe">Subscribe to newsletter:</label>
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <br><br>
+
+    <!-- Submit using a button -->
+    <button type="submit">Submit with Button</button>
+    <br><br>
+
+   <!-- Submit using input -->
+    <input type="submit" value="Submit with Input">
+    <!--This line creates a submit button — but instead of using a <button> element, it's using the <input> tag to do it.-->
+    <!--type="submit"	This tells the browser: "This input is a submit button."
+        value="Submit with Input"	This is the text that appears on the button. 
+        When you click it, it submits the form.-->
+
+  </form>
+
+</body>
+</html>
