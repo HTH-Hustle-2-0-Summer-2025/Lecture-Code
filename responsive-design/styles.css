@@ -1,0 +1,93 @@
+@media screen and (min-width: 450px) {
+    body {
+        background-color: rgb(173, 180, 208);
+        margin: 0;
+    }
+
+    nav {
+        background-color: rgb(166, 212, 195);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    a {
+        margin: 5px;
+    }
+
+    img {
+        display: block;
+        margin: 5vh auto;
+        width: 50vw;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 449px) {
+    body {
+        background-color: rgb(173, 180, 208);
+        margin: 0;
+    }
+
+    a {
+        margin: 5px;
+    }
+
+    img {
+        display: block;
+        margin: 5vh auto;
+        width: 100vw;
+    }
+
+    /* Style the button that is used to open and close the collapsible content */
+    .collapsible {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active, .collapsible:hover {
+        background-color: #ccc;
+    }
+
+    /* Style the collapsible content. Note: hidden by default */
+    .hidden {
+        background-color: rgb(166, 212, 195);
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+    }
+
+    .visible {
+        background-color: rgb(166, 212, 195);
+        flex-direction: column;
+        padding: 0 18px;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
+
+/* the following rules will be applied no matter what the screen width is because they are outside both breakpoints */
+#crow {
+    border: 2px solid red;
+    width: 50vw;
+}
+
+p {
+    border: 2px solid green;
+    width: 50%;
+}
+
