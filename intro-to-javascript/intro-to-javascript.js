@@ -46,17 +46,19 @@ while (x < 5) {
 //     console.log(i);
 // };
 
-
+// for...of stores the index in the loop variable
 for (const arrVar of myArray) {
-    console.log(arrVar);
+    console.log('for of', arrVar);
 };
 
+// for...in stores the VALUE of each item in the loop variable
 for (const arrVar in myArray) {
-    console.log(arrVar);
+    console.log('for in', arrVar);
 };
 
-for (const objProp in myObj) {
-    console.log(objProp, myObj[objProp]);
+// destructuring the keys and values into variables we can use directly from the Object.entries(myObj) returned data structure
+for (const [objProp, objValue] of Object.entries(myObj)) {
+    console.log('object key value:', objProp, objValue);
 };
 
 function multiply (x, y) {
